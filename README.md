@@ -25,7 +25,7 @@
         - using vanilla
             - `cd symfony/public && php -S localhost:8000`
     - React
-        - First, edit src/assets/js/constants.js to set the API URL
+        - First, edit `src/assets/js/constants.js` to set the API URL
         - Then build or run the dev server
             - `cd react && npm run build && php -S localhost:8001 -t dist`
             - `cd react && npm run dev`
