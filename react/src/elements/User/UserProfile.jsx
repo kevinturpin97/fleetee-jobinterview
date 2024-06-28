@@ -68,7 +68,7 @@ export default function UserProfile() {
   }, [selectedTVShow]);
 
   return (
-    <div className='flex flex-col h-full w-11/12 p-3 mx-auto'>
+    <div className='flex flex-col h-auto w-11/12 p-3 mx-auto'>
       <h2 className='text-2xl font-bold text-white mb-4 text-center'>Mon profil</h2>
       <div className="flex flex-col items-center justify-center">
         <img src={'https://placehold.co/150x150'} alt={'profile-picture'} className="w-24 h-24 rounded-full mb-2" />
